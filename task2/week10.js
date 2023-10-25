@@ -8,10 +8,10 @@ showMessage();
 
 function next() {
     let catImage1 = document.getElementById('catImage1');
-    catImage1.scr = '../task2/assets/images/cat2.jpg';
+    catImage1.src = '../task2/assets/images/cat2.jpg';
 }
 
 function prev() {
     let catImage1 = document.getElementById('catImage1');
-    catImage1.scr='../task2/assets/images/cat1.jpg';
+    catImage1.src ='../task2/assets/images/cat1.jpg';
 }
